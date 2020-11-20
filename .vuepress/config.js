@@ -58,7 +58,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    sidebar: "auto",
     // 最后更新时间
     lastUpdated: "Last Updated",
     // 作者
