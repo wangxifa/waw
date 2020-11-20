@@ -106,7 +106,14 @@ module.exports = {
         }
       }
     ],
-    ["@vuepress/active-header-links"]
+    ["@vuepress/active-header-links"],
+    [
+      "vuepress-plugin-container",
+      {
+        type: "right",
+        defaultTitle: ""
+      }
+    ]
     // [
     //   "@vuepress-reco/vuepress-plugin-bgm-player",
     //   {

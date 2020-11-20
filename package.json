@@ -10,6 +10,7 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.7.1",
     "vuepress": "1.5.4",
+    "vuepress-plugin-container": "^2.1.5",
     "vuepress-theme-reco": "1.5.7"
   },
   "dependencies": {
