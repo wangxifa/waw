@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
-    "gh": "bash scripts/deploy-gh.sh"
+    "gh": "bash scripts/deploy-gh.sh",
+    "push": "bash scripts/master.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.7.1",
