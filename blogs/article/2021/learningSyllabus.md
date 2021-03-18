@@ -2,9 +2,9 @@
 title: 学习计划
 date: 2021-03-17
 tags:
-  - learn
+  - think
 categories:
-  - learn
+  - article
 ---
 
 ## 学习方法
