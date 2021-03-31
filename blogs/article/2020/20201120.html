@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress 从零搭建到部署 | 汪啊汪</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/waw/favicon.ico">
+    <meta name="description" content="为中华之崛起而读书。">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/waw/assets/css/0.styles.335629c4.css" as="style"><link rel="preload" href="/waw/assets/js/app.4144d2f4.js" as="script"><link rel="preload" href="/waw/assets/js/3.c812e0bc.js" as="script"><link rel="preload" href="/waw/assets/js/1.24e126b5.js" as="script"><link rel="preload" href="/waw/assets/js/11.68eaf7ba.js" as="script"><link rel="prefetch" href="/waw/assets/js/10.ae387bdd.js"><link rel="prefetch" href="/waw/assets/js/12.b9712e43.js"><link rel="prefetch" href="/waw/assets/js/13.1b45a498.js"><link rel="prefetch" href="/waw/assets/js/14.9e6d7dc5.js"><link rel="prefetch" href="/waw/assets/js/15.dfb9eaa2.js"><link rel="prefetch" href="/waw/assets/js/16.75c2eafe.js"><link rel="prefetch" href="/waw/assets/js/17.d866a857.js"><link rel="prefetch" href="/waw/assets/js/18.9438b222.js"><link rel="prefetch" href="/waw/assets/js/19.fbc71657.js"><link rel="prefetch" href="/waw/assets/js/20.0a9cc443.js"><link rel="prefetch" href="/waw/assets/js/21.2cd310e9.js"><link rel="prefetch" href="/waw/assets/js/4.2bc02c3a.js"><link rel="prefetch" href="/waw/assets/js/5.d60b660b.js"><link rel="prefetch" href="/waw/assets/js/6.c072e86c.js"><link rel="prefetch" href="/waw/assets/js/7.dca0726b.js"><link rel="prefetch" href="/waw/assets/js/8.3fe39928.js"><link rel="prefetch" href="/waw/assets/js/9.d07898f1.js">
+    <link rel="stylesheet" href="/waw/assets/css/0.styles.335629c4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-2d5f533b><div data-v-2d5f533b><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-2d5f533b data-v-2d5f533b><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-2d5f533b data-v-2d5f533b><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>汪啊汪</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>清风</span>
+            
+          <span data-v-64685f0e>2020 - </span>
+          2021
+        </a></span></div></div> <div class="hide" data-v-2d5f533b><header class="navbar" data-v-2d5f533b><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/waw/" class="home-link router-link-active"><!----> <span class="site-name">汪啊汪</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/waw/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/waw/categories/article/" class="nav-link"><i class="iconfont undefined"></i>
+  article
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/HTML/" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/React/" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/Webpack/" class="nav-link"><i class="iconfont undefined"></i>
+  Webpack
+</a></li></ul></div></div><div class="nav-item"><a href="/waw/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/waw/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关联
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/wangxifa" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-2d5f533b></div> <aside class="sidebar" data-v-2d5f533b><div class="personal-info-wrapper" data-v-ca798c94 data-v-2d5f533b><img src="/waw/avatar.png" alt="author-avatar" class="personal-img" data-v-ca798c94> <h3 class="name" data-v-ca798c94>
+    清风
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>7</h3> <h6 data-v-ca798c94>Article</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>5</h3> <h6 data-v-ca798c94>Tag</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><a href="/waw/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/waw/categories/article/" class="nav-link"><i class="iconfont undefined"></i>
+  article
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/HTML/" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/React/" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/waw/categories/Webpack/" class="nav-link"><i class="iconfont undefined"></i>
+  Webpack
+</a></li></ul></div></div><div class="nav-item"><a href="/waw/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/waw/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关联
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/wangxifa" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-2d5f533b><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>VuePress 从零搭建到部署</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>清风</span>
+            
+          <span data-v-64685f0e>2020 - </span>
+          2021
+        </a></span></div></div> <div data-v-2d5f533b><main class="page"><div class="page-title" style="display:none;"><h1 class="title">VuePress 从零搭建到部署</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>清风</span></i> <i class="iconfont reco-date" data-v-3b7f5bdf><span data-v-3b7f5bdf>2020-11-20</span></i> <i class="iconfont reco-eye" data-v-3b7f5bdf><span id="/waw/blogs/article/2020/20201120.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-3b7f5bdf><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-3b7f5bdf><span class="tag-item" data-v-3b7f5bdf>VuePress</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="为什么要搭建博客呢"><a href="#为什么要搭建博客呢" class="header-anchor">#</a> 为什么要搭建博客呢?</h2> <p>其实一直有搭建博客的打算，平时记笔记都是零零散散的，每到要用的时候这里一块那里一块；一直就这么过来，于是痛定思痛下定决心搭建一个属于自己的博客。</p> <p>但是又想有一个属于自己的博客又不想花费太多时间咋办：用现有框架快速搭建！</p> <h4 id="于是找到了这些快速搭建的方式"><a href="#于是找到了这些快速搭建的方式" class="header-anchor">#</a> 于是找到了这些快速搭建的方式：</h4> <ul><li>博客平台 (掘金、CSDN、博客园、Farbox 之类的一站式平台，写好文章网上丢就可以了)</li> <li>纯自己码 (需要超强的技术壁垒)</li></ul> <h4 id="搭建博客的工具-目前也是最主流的方式"><a href="#搭建博客的工具-目前也是最主流的方式" class="header-anchor">#</a> 搭建博客的工具 (目前也是最主流的方式)</h4> <ul><li>Hexo</li> <li>Vuepress (本文主要说的)</li></ul> <h2 id="为什么用-vuepress"><a href="#为什么用-vuepress" class="header-anchor">#</a> 为什么用 VuePress ?</h2> <p>VuePress 由两部分组成：第一部分是一个<a href="https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/core" target="_blank" rel="noopener noreferrer">极简静态网站生成器<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，
+它包含由 Vue 驱动的<a href="/waw/theme/">主题系统</a>和<a href="/waw/plugin/">插件 API</a>，另一个部分是为书写技术文档而优化的<a href="/waw/theme/default-theme-config.html">默认主题</a>，它的诞生初衷是为了支持 Vue 及其子项目的文档需求。</p> <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue 将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p> <p>事实上，一个 VuePress 网站是一个由<a href="http://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>、<a href="https://github.com/vuejs/vue-router" target="_blank" rel="noopener noreferrer">VueRouter<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 和<a href="http://webpack.js.org/" target="_blank" rel="noopener noreferrer">webpack<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 驱动的单页应用。如果你以前使用过 Vue 的话，当你在开发一个自定义主题的时候，你会感受到非常熟悉的开发体验，你甚至可以使用 Vue DevTools 去调试你的自定义主题。</p> <h2 id="那我们开始吧"><a href="#那我们开始吧" class="header-anchor">#</a> 那我们开始吧！</h2> <div style="background-color:rgba(255,229,100,.3);border-color:#e7c000;color:#000;padding:.1rem 1.5rem;border-left-width:.5rem;border-left-style:solid;margin:1rem 0;"><p class="custom-block-title">前提条件</p> <p>
+    VuePress 需要 <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" style="color:#3eaf7c;">Node.js</a> &gt;= 8.6
+  </p></div> <h3 id="初始化搭建-vuepress"><a href="#初始化搭建-vuepress" class="header-anchor">#</a> 初始化搭建 VuePress</h3> <h4 id="创建并进入一个新目录"><a href="#创建并进入一个新目录" class="header-anchor">#</a> 创建并进入一个新目录</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>mkdir vuepress-starter &amp;&amp; cd vuepress-starter
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="使用你喜欢的包管理器进行初始化"><a href="#使用你喜欢的包管理器进行初始化" class="header-anchor">#</a> 使用你喜欢的包管理器进行初始化</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yarn init # npm init
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="将-vuepress-安装为本地依赖-推荐本地安装-vuepress"><a href="#将-vuepress-安装为本地依赖-推荐本地安装-vuepress" class="header-anchor">#</a> 将 VuePress 安装为本地依赖,推荐本地安装 VuePress</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yarn add -D vuepress # npm install -D vuepress
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="新建-docs-文件夹-开始第一篇文档"><a href="#新建-docs-文件夹-开始第一篇文档" class="header-anchor">#</a> 新建 docs 文件夹,开始第一篇文档</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>mkdir docs &amp;&amp; echo '# Hello VuePress' &gt; docs/README.md
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="设置-package-json"><a href="#设置-package-json" class="header-anchor">#</a> 设置 package.json</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>{
+  &quot;scripts&quot;: {
+    &quot;docs:dev&quot;: &quot;vuepress dev docs&quot;,
+    &quot;docs:build&quot;: &quot;vuepress build docs&quot;
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="在本地启动服务器"><a href="#在本地启动服务器" class="header-anchor">#</a> 在本地启动服务器</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yarn docs:dev # npm run docs:dev
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="简简单单服务就这么起来了"><a href="#简简单单服务就这么起来了" class="header-anchor">#</a> 简简单单服务就这么起来了</h4> <p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a0f929a7c52b421d8dc4282e743769b9~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>这一看好像没啥用啊,咋快速呢,先看看目前的目录结构:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>├─ docs
+│  ├─ README.md
+│  └─ .vuepress
+│     └─ config.js
+└─ package.json
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>如果我们自己一步一步去搭建接下来就应该去进行 config 文件配置了:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+    title: '个人主页',
+    description: '小白的博客',
+    head: [
+        ['link', { rel: 'icon', href: '/img/logo.ico' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ]
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>title：网站标题</li> <li>description：网站描述</li> <li>head：额外的需要被注入到当前页面的 HTML&quot;head&quot;中的标签，其中路径的&quot;/&quot;就是 public 资源目录。
+就这样一步一步搭建起来的博感觉最后总是差了点意思,这和我想象中怎么不一样,那怎样才能体(zhuang)验(bi)更好呢?找个花里胡哨的主题~</li></ul> <h3 id="主题搭建"><a href="#主题搭建" class="header-anchor">#</a> 主题搭建</h3> <p>个人认为这个主题应该是 vuepress 最好的一个主题之一，是博主<a href="https://www.recoluan.com/" target="_blank" rel="noopener noreferrer">午后南杂<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>制作的一个超赞主题。
+<a href="https://vuepress-theme-reco.recoluan.com/)" target="_blank" rel="noopener noreferrer">主题地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>用主题好比游戏开局有了神器,一个字,就是淦!</p> <h4 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h4> <p>既然我们有了神器就不用管之前的安装构建了,直接装备神器走起~</p> <div class="language- line-numbers-mode"><pre class="language-text"><code># create
+npx vuepress-theme-reco-cli init my-blog
+# or
+npm install  -g
+reco-cli init my-blog
+
+# install
+cd my-blog
+npm install
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="执行-dev-命令运行程序"><a href="#执行-dev-命令运行程序" class="header-anchor">#</a> 执行 dev 命令运行程序</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code># run
+npm run dev
+
+# build
+npm run build
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>页面出来,大功告成~
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a2144ce6fe5d4a8f9c395f4ad09b5598~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>但是感觉还是差了那么点意思,咋没有可爱的板娘,咋不能评论~</p> <p>ok,那我们继续</p> <h4 id="开启评论功能"><a href="#开启评论功能" class="header-anchor">#</a> 开启评论功能</h4> <p>很舒服 vuepress-theme-reco 帮我们内置了评论功能,使用 valine:一款快速、简洁且高效的无后端评论系统。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code># 开启
+valineConfig: {
+  appId: &quot;&quot;, // your appId
+  appKey: &quot;&quot; // your appKey
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>获取 appId 和 appKey:登录<a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">valine<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+登录成功创建应用
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d1e0fc9f986473bbe40936368fc3ad3~tplv-k3u1fbpfcp-watermark.image" alt="">
+创建完成点击设置获取应用 appId, appKey,评论有了,美滋滋~</p> <h4 id="获得板娘的宠爱"><a href="#获得板娘的宠爱" class="header-anchor">#</a> 获得板娘的宠爱</h4> <p>获得<a href="https://www.npmjs.com/package/@vuepress-reco/vuepress-plugin-kan-ban-niang" target="_blank" rel="noopener noreferrer">可爱板娘<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>加成~
+通过配置板娘插件,安装成功之后,在 config.js 中配置 plugins</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>plugins: [
+    [
+      &quot;@vuepress-reco/vuepress-plugin-kan-ban-niang&quot;,
+      {
+        theme: [&quot;blackCat&quot;],
+        clean: true,
+        modelStyle: {
+          position: &quot;fixed&quot;,
+          left: &quot;0px&quot;,
+          bottom: &quot;0px&quot;,
+          opacity: &quot;0.9&quot;,
+          zIndex: 99999
+        }
+      }
+    ]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>这里我配置的是小黑猫,当然还要很多主题初音,萝莉任你探索~
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1e5c046280204b8e92d72b26761b106f~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>还有更多<a href="https://www.vuepress.cn/plugin/" target="_blank" rel="noopener noreferrer">插件<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>在等你~~</p> <h3 id="blog-部署"><a href="#blog-部署" class="header-anchor">#</a> blog 部署</h3> <p>既然是搭建 blog,部署当然很重要,如何部署呢?<a href="https://www.vuepress.cn/guide/deploy.html" target="_blank" rel="noopener noreferrer">官网部署<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <ul><li>GitHub Pages (本文主要说的)</li> <li>Netlify</li> <li>Google Firebase</li> <li>Surge</li> <li>Heroku</li> <li>Vercel
+为啥选 GitHub,因为只有选择 GitHub 部署才能配的上我打工人的身份!</li></ul> <h4 id="第一步"><a href="#第一步" class="header-anchor">#</a> 第一步</h4> <p>你的 vuepress 项目是否已经在 github 上的仓库下</p> <p>如果是，请跳到第二步</p> <p>如果不是，想在 GitHub 新建一个仓库，如图所示
+<img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/669266dcc1464bbcb35400563f496adf~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>仓库名字要和 config.js 里 的 base 属性值一样</p> <p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b287787404694ba2b7b38827dd1a77d8~tplv-k3u1fbpfcp-watermark.image" alt="">
+创建好仓库以后，本地拉去代码 git clone &lt;你复制的地址&gt;</p> <p>把你的 vuepress 项目除了 node_modules 文件夹之外的文件全部复制到 git clone 下来的文件夹内</p> <p>然后 npm install 或者 yarn</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>npm run docs:dev 打包/打包后的文件在docs/.vuepress/dist文件夹下
+git add -A
+git commit -m 'init'
+git push
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="第二步"><a href="#第二步" class="header-anchor">#</a> 第二步</h4> <p>添加脚本,我们在根目录创建 scritps 文件,在文件下新建 deploy-gh.sh 文件,内容如下:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>#!/usr/bin/env sh
+
+# 确保脚本抛出遇到的错误
+set -e
+
+# 生成静态文件
+npm run build
+
+# 进入生成的文件夹
+cd public
+
+# 如果是发布到自定义域名
+# echo 'www.example.com' &gt; CNAME
+
+git init
+git add -A
+git commit -m 'deploy'
+
+# 如果发布到 https://&lt;USERNAME&gt;.github.io
+# git push -f git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git master
+
+# 如果发布到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;
+# git push -f git@github.com:&lt;USERNAME&gt;/&lt;REPO&gt;.git master:gh-pages
+
+# 把上面的 &lt;USERNAME&gt; 换成你自己的 Github 用户名，&lt;REPO&gt; 换成仓库名，比如我这里就是：
+# git push -f git@github.com:wangxifa/qinFeng.git master:gh-pages
+git push -f https://github.com/wangxifa/qinFeng.git master:gh-pages
+
+cd -
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><p>这里推荐使用 http,避免了 ssh 设置的问题
+我们在 package.json 设置快捷方式</p> <div class="language- line-numbers-mode"><pre class="language-text"><code> &quot;scripts&quot;: {
+    &quot;dev&quot;: &quot;vuepress dev . --open --host \&quot;localhost\&quot;&quot;,
+    &quot;build&quot;: &quot;vuepress build .&quot;,
+    &quot;gh&quot;: &quot;bash scripts/deploy-gh.sh&quot;
+  },
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>运行代码</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>yarn gh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="第三步"><a href="#第三步" class="header-anchor">#</a> 第三步</h4> <p>此时 github 上你应该可以看到你的分支
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68eab3c1c4344fe882cf3132f41e7e3c~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>点击 settings ,然后往下拉，找到 GitHub Pages</p> <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3eeb6ecdf09d4ec2af446231b93c0a09~tplv-k3u1fbpfcp-watermark.image" alt=""></p> <p>在 Source 的下拉选中你的分支</p> <p>出现 Your site is published at 网址</p> <p>就说明发布成功了，访问这个网址就可以看到你的博客啦</p> <p>示例：<a href="https://wangxifa.github.io/waw/" target="_blank" rel="noopener noreferrer">我的博客<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id="最后"><a href="#最后" class="header-anchor">#</a> 最后</h3> <p>至此,从零开始搭建部署博客就完成了~</p> <p>当然这只是开始,更加重要的是去坚持去利用博客记录自己的所思所想~</p> <p>成为一个优秀的打工人!</p> <hr> <h2 id="本文章的编写参考了"><a href="#本文章的编写参考了" class="header-anchor">#</a> 本文章的编写参考了</h2> <p><a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html" target="_blank" rel="noopener noreferrer">搭建一个免费的，无限流量的 Blog----github Pages 和 Jekyll 入门<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://segmentfault.com/a/1190000019734486" target="_blank" rel="noopener noreferrer">用 Vuepress 搭建专属你的博客吧<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://www.jianshu.com/p/1f199ee49e4c" target="_blank" rel="noopener noreferrer">部署 VuePress 到 GitHub Pages (超详细)<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">3/18/2021, 8:07:40 PM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到 汪啊汪
+    </div> <div class="operation" style="right:90px;bottom:40px;display:none;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:none;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="position:fixed;left:0px;bottom:0px;opacity:0.9;z-index:99999;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div></div></div>
+    <script src="/waw/assets/js/app.4144d2f4.js" defer></script><script src="/waw/assets/js/3.c812e0bc.js" defer></script><script src="/waw/assets/js/1.24e126b5.js" defer></script><script src="/waw/assets/js/11.68eaf7ba.js" defer></script>
+  </body>
+</html>
